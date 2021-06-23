@@ -1,6 +1,6 @@
 # ✔️ Flutter News App
 
-A Flutter app based on the design of the News App, created by *Achmad Rizki Nur Fauzie*,
+A Flutter app based on the design of the News App, created by *Asit Kumar*,
 
 ## Features
 - Responsive Apps
@@ -18,7 +18,7 @@ A Flutter app based on the design of the News App, created by *Achmad Rizki Nur 
 ## API
 Register to newsapi.org and get the apiKey
 ```
-var response = await client.get('http://newsapi.org/v2/everything?domains=wsj.com&apiKey=USEYOURAPIKEYHERE');
+var response = await client.get('http://newsapi.org/v2/everything?domains=wsj.com&apiKey=USEYOURAPIKEY');
 ```
 
 ## Preview App
