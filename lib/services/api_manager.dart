@@ -13,7 +13,7 @@ class ApiManager {
     // use try because not every reult can be get
     try {
       var response = await client.get(
-          'http://newsapi.org/v2/everything?domains=wsj.com&apiKey=5bad028e1225435fa67e94bcbd7b0693');
+          'http://newsapi.org/v2/everything?domains=wsj.com&apiKey=USEYOURAPIKEY');
 
       // check if data was success
       if (response.statusCode == 200) {
